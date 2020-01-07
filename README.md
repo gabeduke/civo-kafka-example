@@ -132,5 +132,5 @@ kubectl run kafka-consumer \
 killall kubectl
 
 # clean up the kubernetes cluster
-civo cluster delete kafka
+civo k8s delete kafka
 ```
