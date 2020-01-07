@@ -1,0 +1,7 @@
+apiVersion: zookeeper.pravega.io/v1beta1
+kind: ZookeeperCluster
+metadata:
+  name: zookeepercluster
+  namespace: zookeeper
+spec:
+  replicas: 3
